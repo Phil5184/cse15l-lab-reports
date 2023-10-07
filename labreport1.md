@@ -15,4 +15,5 @@ The working directory when this code was run was the /lecture1 directory. The ou
 ![Image](LabReport5.jpg)
 The working directory when this code was run was the /lecture1 directory, like before. The output was the same as before because the argument I put was "/home/lecture1" and the ls command returns the files and folders inside of the argument (lecture1). This is expected and is not an error. 
 
-![Image](LabReport6.jpg)
+
+The working directory when this code was run was the /lecture1 directory. The output showed a list of all the files inside of 
