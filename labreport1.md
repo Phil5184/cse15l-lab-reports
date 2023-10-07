@@ -22,3 +22,7 @@ The working directory when this code was run was the /lecture1 directory. The ou
 The working directory when this code was run was the /lecture1 directory. The output is nothing, and it "broke" the terminal because I was not able to type in any other commands or arguments after. This output was because the command "cat" usually prints out the text that is in the file provided as the argument. If there is no argument, there is no file to print out text from. I believe this is an error, because we did not provide an argument for the command to work on, and the command also broke the terminal. 
 
 ![Image](LabReport8.jpg)
+The working directory when this code was run was the /lecture1 directory. The output was an error message stating that the argument (/home/lecture1) was a directory. This is because the command cat only works with files to print out the text in those files. It does not work with directories that have no text to print. This is an error because we provided an argument type that does not work with the command and as seen, the output is not what we wanted. 
+
+![Image](LabReport9.jpg)
+The working directory is the /lecture1 directory, like last time. The output is the "Hello World!" messages because this is the text that is inside the "en-us.txt" file, which is the file path that we provided as the argument. In this case, the command cat works as expected and this is not an error.
