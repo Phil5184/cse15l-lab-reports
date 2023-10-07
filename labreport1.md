@@ -15,5 +15,10 @@ The working directory when this code was run was the /lecture1 directory. The ou
 ![Image](LabReport5.jpg)
 The working directory when this code was run was the /lecture1 directory, like before. The output was the same as before because the argument I put was "/home/lecture1" and the ls command returns the files and folders inside of the argument (lecture1). This is expected and is not an error. 
 
+![Image](LabReport6.jpg)
+The working directory when this code was run was the /lecture1 directory. The output showed a pathway to the file that was the argument (so the output was the exact same as the argument) and this is because we provided a file as the argument, which has no files or folders inside of it. The command ls cannot work with this as an argument, because there is nothing to show if there is nothing inside of the argument provided. I believe this is an error because we provided an argument that does not work with the command ls. 
 
-The working directory when this code was run was the /lecture1 directory. The output showed a list of all the files inside of 
+![Image](LabReport7.jpg)
+The working directory when this code was run was the /lecture1 directory. The output is nothing, and it "broke" the terminal because I was not able to type in any other commands or arguments after. This output was because the command "cat" usually prints out the text that is in the file provided as the argument. If there is no argument, there is no file to print out text from. I believe this is an error, because we did not provide an argument for the command to work on, and the command also broke the terminal. 
+
+![Image](LabReport8.jpg)
