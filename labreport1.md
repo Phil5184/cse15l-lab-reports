@@ -1,7 +1,9 @@
+#'Cd' command with NO arguments
 ![Image](LabReport1.jpg)
-The working directory when this code was run was the /home directory. 
+The working directory when this code was run was the '/home' directory. 
 There was no output because the command cd changes the directory to whatever argument you put in, so since I put in no arguments, there was no change in directory or output to be made. 
 This output is not an error.
+
 
 ![Image](LabReport2.jpg)
 The working directory when this code was run was the /home directory. There was no output, but the working directory after running the code did change to the /lecture1 directory. This is the expected result/output, since the cd command changes the directory to the argument that you put in, and my argument was "/home/lecture1", so the directory changed to /lecture 1. This is not an error. 
