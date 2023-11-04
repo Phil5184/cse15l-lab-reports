@@ -1,5 +1,6 @@
 ## Bug from Lab4 - Failure Inducing Input:
-I decided to choose the merge test from ListExamples as my bug. Here is the failure-inducing test input:
+I decided to choose the merge test from ListExamples as my bug. Here is the failure-inducing test input:  
+
 
 `@Test
     public void mergeTest2() {
@@ -10,7 +11,8 @@ I decided to choose the merge test from ListExamples as my bug. Here is the fail
     }`
 
 ## Bug from Lab4 - Successful Input:
-Here is the successful test input:
+Here is the successful test input:  
+
 
 `@Test
     public void mergeTest1() {
@@ -25,7 +27,8 @@ Here are the screenshots for the outputs of the 2 tests above after running them
 ![Image](LabReport3Symptom.jpg)
 
 ## The Bug (in the Merge method in ListExamples)
-Here is the buggy code:
+Here is the buggy code:  
+
 
 `static List<String> merge(List<String> list1, List<String> list2) {
     List<String> result = new ArrayList<>();
@@ -51,7 +54,8 @@ Here is the buggy code:
     return result;
   }`
 
-Here is the fixed code:
+Here is the fixed code:  
+
 
 `static List<String> merge(List<String> list1, List<String> list2) {
     List<String> result = new ArrayList<>();
