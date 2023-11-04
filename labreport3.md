@@ -2,12 +2,12 @@
 I decided to choose the merge test from ListExamples as my bug. Here is the failure-inducing test input:  
 
 
-`@Test
-    public void mergeTest2() {
-        List<String> input1 = new ArrayList<>(Arrays.asList("a", "b", "c", "d", "e"));
-        List<String> input2 = new ArrayList<>(Arrays.asList("h", "i"));
-        List<String> output1 = new ArrayList<>(Arrays.asList("a", "b", "c", "d", "e", "h", "i"));
-        assertEquals(output1, ListExamples.merge(input1, input2));
+`@Test  
+    public void mergeTest2() {  
+        List<String> input1 = new ArrayList<>(Arrays.asList("a", "b", "c", "d", "e"));  
+        List<String> input2 = new ArrayList<>(Arrays.asList("h", "i"));  
+        List<String> output1 = new ArrayList<>(Arrays.asList("a", "b", "c", "d", "e", "h", "i"));  
+        assertEquals(output1, ListExamples.merge(input1, input2));  
     }`
 
 ## Bug from Lab4 - Successful Input:
