@@ -89,16 +89,23 @@ The reason why the method was buggy in the beginning was that if your inputs for
   
 ## Researching Commands:  
 
-### grep -c:
+### grep -c:  
+
 Example 1:  
-Input: 
+
+Input:  
+
 ```grep -c "base pair" biomedlines.txt```
-Output:
+Output:  
+
 ```226```
-Example 2: 
-Input:
+Example 2:  
+
+Input:  
+
 ```grep -c ".txt" biomedlines1.txt ```
-Output:
+Output:  
+
 ```74```
 This `-c` command searches through the file provided for lines that match the pattern provided, then prints only the count of the lines that match the pattern. This is useful when you want to find how many lines inside of a file match a pattern without being concerned with the content or where those lines are. Such as the question during lab that asked us to find the number of lines that contained "base pair" in technical/biomed, instead of using `wc` after in order to see the lines, we could have just used `grep -c`.
 
