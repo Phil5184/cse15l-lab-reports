@@ -244,4 +244,4 @@ Output:
 ```
 This `-rh` option for grep recursively searches through directories and subdirectories and files inside of the directories to find lines that match with the pattern provided, and then print the lines that match without printing the file name that those lines are in. This is useful if you want to look through a directory and not just an individual file, and only want the content that matches rather than all the file names. 
 
-Disclaimer: For some of the command outputs, I only showed a portion of the output because the full output was too long (some of the outputs were 226 lines long)
+__Disclaimer: For some of the command outputs, I only showed a portion of the output because the full output was too long (some of the outputs were 226 lines long)__
