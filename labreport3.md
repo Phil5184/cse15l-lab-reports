@@ -87,9 +87,10 @@ static List<String> merge(List<String> list1, List<String> list2) {
 
 The reason why the method was buggy in the beginning was that if your inputs for the method arguments (`list1` and `list2`) were sorted in such a way that the variable `index1` in the method reached the end of `list1` before `index2` reached the end of `list2`, then the method would jump to the 3rd while loop, to finish looping through `list2`. However, inside of the 3rd while loop, instead of updating index2 to continue running through each index in `list2`, the loop would update `index1`. This led to `index1` continuously being updated over and over again while the same element from `list2` was continously added. Thus the Out of Memory Error. 
   
-##Researching Commands:
-###grep -c:
-Example 1:
+## Researching Commands:  
+
+### grep -c:
+Example 1:  
 Input: 
 ```grep -c "base pair" biomedlines.txt```
 Output:
@@ -101,7 +102,7 @@ Output:
 ```74```
 This `-c` command searches through the file provided for lines that match the pattern provided, then prints only the count of the lines that match the pattern. This is useful when you want to find how many lines inside of a file match a pattern without being concerned with the content or where those lines are. Such as the question during lab that asked us to find the number of lines that contained "base pair" in technical/biomed, instead of using `wc` after in order to see the lines, we could have just used `grep -c`.
 
-###grep -n
+### grep -n
 Example 1:
 Input: 
 ```grep -n ".txt" biomedlines1.txt```
@@ -124,7 +125,6 @@ Output:
 15:technical/biomed/1471-2156-3-16.txt
 16:technical/biomed/ar297.txt
 ```
-
 
 Example 2:
 Input:
