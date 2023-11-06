@@ -109,7 +109,7 @@ Output:  ```74```
 
 This `-c` command searches through the file provided for lines that match the pattern provided, then prints only the count of the lines that match the pattern. This is useful when you want to find how many lines inside of a file match a pattern without being concerned with the content or where those lines are. Such as the question during lab that asked us to find the number of lines that contained "base pair" in technical/biomed, instead of using `wc` after in order to see the lines, we could have just used `grep -c`.  
 
-Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+Source: [link to source](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
 ### grep -n
 Example 1:  
@@ -160,7 +160,7 @@ Output:
 ```
 This `-n` command searches through files for lines that match the provided pattern, and then prints the line number and the contents of the line that match the pattern. This is useful for when you want to look inside a specific file and want lines that match a pattern, as well as where those lines are to find them easier later.
 
-Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+Source: [link to source](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
 ### grep -rc
 Example 1:  
@@ -213,7 +213,7 @@ technical/biomed/gb-2001-2-4-research0010.txt:1
 ```
 This `-rc` command searches through directories and subdirectories and files within those directories for lines that match with the pattern provided, and then next to the file names, it prints the count of the lines that match the pattern. This is useful if you are searching through a directory rather than an individual file and only want the count of the lines in each file that match the pattern, rather than the content. 
 
-Source: I found this command using a combination of a website called "geeksforgeeks" as well as the `man grep` command. Here is the link for the website: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+Source: I found this command using a combination of a website called "geeksforgeeks" as well as the `man grep` command. Here is the link for the website: [link to website](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
 ### grep -rh
 Example 1:  
@@ -250,6 +250,6 @@ Output:
 ```
 This `-rh` option for grep recursively searches through directories and subdirectories and files inside of the directories to find lines that match with the pattern provided, and then print the lines that match without printing the file name that those lines are in. This is useful if you want to look through a directory and not just an individual file, and only want the content that matches rather than all the file names. 
 
-Source: I found this command using a combination of a website called "geeksforgeeks" as well as the `man grep` command. Here is the link for the website: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+Source: I found this command using a combination of a website called "geeksforgeeks" as well as the `man grep` command. Here is the link for the website: [link to website](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
 __Disclaimer: For some of the command outputs, I only showed a portion of the output because the full output was too long (some of the outputs were 226 lines long)__
