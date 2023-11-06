@@ -93,26 +93,23 @@ The reason why the method was buggy in the beginning was that if your inputs for
 
 Example 1:  
 
-Input:  
+Input:  ```grep -c "base pair" biomedlines.txt```  
 
-```grep -c "base pair" biomedlines.txt```
-Output:  
+Output:  ```226```  
 
-```226```
 Example 2:  
 
-Input:  
+Input: ```grep -c ".txt" biomedlines1.txt ```  
 
-```grep -c ".txt" biomedlines1.txt ```
-Output:  
+Output:  ```74```  
 
-```74```
 This `-c` command searches through the file provided for lines that match the pattern provided, then prints only the count of the lines that match the pattern. This is useful when you want to find how many lines inside of a file match a pattern without being concerned with the content or where those lines are. Such as the question during lab that asked us to find the number of lines that contained "base pair" in technical/biomed, instead of using `wc` after in order to see the lines, we could have just used `grep -c`.
 
 ### grep -n
-Example 1:
-Input: 
-```grep -n ".txt" biomedlines1.txt```
+Example 1:  
+
+Input: ```grep -n ".txt" biomedlines1.txt```  
+
 Output:
 ```
 1:technical/biomed/1471-2156-2-3.txt
@@ -133,9 +130,10 @@ Output:
 16:technical/biomed/ar297.txt
 ```
 
-Example 2:
-Input:
-```grep -n "base pair" biomedwords.txt ```
+Example 2:  
+
+Input: ```grep -n "base pair" biomedwords.txt ```  
+
 Output:
 ```
 1:technical/biomed/1471-2156-2-3.txt:          three exons. The first exon contains 279 base pairs (bp)
@@ -157,9 +155,10 @@ Output:
 This `-n` command searches through files for lines that match the provided pattern, and then prints the line number and the contents of the line that match the pattern. This is useful for when you want to look inside a specific file and want lines that match a pattern, as well as where those lines are to find them easier later. 
 
 ### grep -rc
-Example 1:
-Input: 
-```grep -rc "base pair" technical/plos ```
+Example 1:  
+
+Input: ```grep -rc "base pair" technical/plos ```  
+
 Output:
 ```
 technical/plos/pmed.0020273.txt:0
@@ -178,9 +177,10 @@ technical/plos/pmed.0020099.txt:0
 technical/plos/journal.pbio.0020140.txt:0
 ```
 
-Example 2:
-Input:
-```grep -rc "base pair" technical/biomed```
+Example 2:  
+
+Input: ```grep -rc "base pair" technical/biomed```  
+
 Output:
 ```
 technical/biomed/1472-6807-2-2.txt:0
@@ -206,18 +206,20 @@ technical/biomed/gb-2001-2-4-research0010.txt:1
 This `-rc` command searches through directories and subdirectories and files within those directories for lines that match with the pattern provided, and then next to the file names, it prints the count of the lines that match the pattern. This is useful if you are searching through a directory rather than an individual file and only want the count of the lines in each file that match the pattern, rather than the content. 
 
 ### grep -rh
-Example 1:
-Input:
-```grep -rh "base pair" technical/plos ```
+Example 1:  
+
+Input: ```grep -rh "base pair" technical/plos ```  
+
 Output:
 ```
 Watson-Crick base pairing, the proximity of the synthetic reactive groups elevates their
 sequence, which is a specific series of eight base pairs in the DNA of the bacterial
 chromosomes, on the order of one or two thousand base pairs of DNA (or less—their length is
 ```
-Example 2:
-Input:
-```grep -rh "base pair" technical/biomed```
+Example 2:  
+
+Input: ```grep -rh "base pair" technical/biomed```  
+
 Output:
 ```
           three exons. The first exon contains 279 base pairs (bp)
