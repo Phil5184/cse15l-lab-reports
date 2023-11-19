@@ -22,14 +22,17 @@ To edit the code file, I used `vim`. I first typed in "`vim ListExamples.java`".
 In summary, the edits I made were just changing the `index1 += 1;` on line 44 to `index2 += 1;`
 To check that the edits I made were saved, I pressed the `<up>` arrow to get back my previous command, which was `vim ListExamples.java`. Then I pressed `<enter>` to run the command, and looked through `ListExamples.java` to make sure my edit was there. After that I just exited with `:q`.
 Here is the screenshot:
-
+![Image](EditCode.jpg)
 
 ## Running the Tests again:
 To run the tests again, I knew I had the `bash test.sh` command somewhere in my history, so I pressed the `<up>` arrow 6 times until I got back the to the `bash test.sh` command. Then I pressed `<enter>` to run the test bash script. The tests passed. 
 Here is the screenshot:
-
+![Image](RunTests2.jpg)
 
 ## Commit and Push:
 To commit and push, first I had to add the `ListExamples.java` file to the commit. I typed in `git status` and pressed `<enter>`, just to get a visual check and see that there were modified changes to ListExamples.java that weren't yet staged for commit. So I typed in the command `git add ListExamples.java`, and pressed `<enter>`. This will add the changes made in `ListExamples.java` to the next commit. Then I pressed the `<up>` arrow twice to get back by `git status` command, and pressed `<enter>`. This was just to make sure that `ListExamples.java` was staged for the next commit.
 After that, I could go ahead and commit by typing in the command `git commit -m 'edited the file to fix the error'` and pressing `<enter>`. The "edited the file to fix the error" was the commit message that I wanted to add. To finally push the change, I typed in the command `git push` and pressed `<enter>`. Now everything was commited and pushed. To check one last time, I pressed the `<up>` arrow 3 times to get back my `git status` command, and pressed `<enter>`. It showed that there was nothing to commit, which is what I wanted to see. 
 Here are the screenshots: (I took 3 screenshots for this step since there were a lot of commands that I ran)
+![Image](gitAdd.jpg)
+![Image](gitCommit.jpg)
+![Image](gitStatus.jpg)
