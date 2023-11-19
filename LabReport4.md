@@ -29,7 +29,8 @@ Here is the screenshot:
 ![Image](EditCode.jpg)
 
 ## Running the Tests again:
-To run the tests again, I knew I had the `bash test.sh` command somewhere in my history, so I pressed the `<up>` arrow 6 times until I got back the to the `bash test.sh` command. Then I pressed `<enter>` to run the test bash script. The tests passed. 
+To run the tests again, I knew I had the `bash test.sh` command somewhere in my history, so I pressed the `<up>` arrow 6 times until I got back the to the `bash test.sh` command. Then I pressed `<enter>` to run the test bash script. The tests passed.   
+
 Here is the screenshot:
 ![Image](RunTests2.jpg)
 
