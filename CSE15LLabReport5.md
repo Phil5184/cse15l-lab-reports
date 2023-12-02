@@ -1,5 +1,6 @@
 ## Phillip's Edstem Post:
 Hello, I am Phillip Mai and I would like some help with my center pivot partitioner method. It's supposed to partition a String array based on a pivot at the center, so that all the elements less than the pivot are to the left of the pivot, and all elements bigger than the pivot are to the right. Right now my code isn't working when I run the tests. Here is a screenshot of my failure test.
+![Image](report5Bug.jpg)
 
 I don't know what the bug is, it seems like the method isn't running to the very end because the last element remains the same. The last element should be "N" but instead it is "H". I think there is something wrong that makes it so that my code isn't reaching the last for-loop.
 
@@ -11,8 +12,9 @@ Thank you! I'll try it out right now.
 
 ## Phillip: 
 Here is the results of the running test and the prints after adding in what you told me to add. 
+![Image](report5result.jpg)
 
-It seems like the copy array and the original array are the same thing, even though the print statement is before the original one was copied over. Does this mean that when I was modifying the copy, it was modifying the original one at the same time too?
+From the print statements, it seems like the method is successfully reaching the last for-loop. The copy array and the original array also seem to be the same thing, even though the print statement is before the original one was copied over. Does this mean that when I was modifying the copy, it was modifying the original one at the same time too?
 
 ## TA: 
 Yeah, that's the issue. That was what I was trying to check for, to see if the copy was actually another string array object and not just a shallow copy. Try fixing it to make the copy a deep copy instead, where you create a new string array and manually copy the elements over. 
@@ -99,8 +101,10 @@ for (int  i = 0; i < strs.length; i+=1) {
 ```
 These blocks of code show what I added in place of what I had previously, which was just single lines of: 
 
-`String[] copy1 = strs` 
+```String[] copy1 = strs```
 
 and 
 
-`strs = copy1`.
+```strs = copy1```
+## Reflection:
+Something I learned in the 2nd half of the quarter was Vim. I had previously heard of Vim, as well as little jokes about how people who use Vim just use it to be able to brag that they use Vim, but I had never really known what Vim was. So it was kind of funny and cool to learn about it and how to use it, as well as see the professor use it with actual skill and how fast he can do stuff in Vim with enough practice. I don't know if I'll ever use it myself, but it was at least cool to know, especially when I want to edit everything from the terminal instead of opening up the actual files directly. 
