@@ -5,7 +5,7 @@ Hello, I am Phillip Mai and I would like some help with my center pivot partitio
 I don't know what the bug is, it seems like the method isn't running to the very end because the last element remains the same. The last element should be "N" but instead it is "H". I think there is something wrong that makes it so that my code isn't reaching the last for-loop.
 
 ## TA: 
-Hi! So to me, it seems like your thoughts about the possible bug might be correct, but to make sure, let's add in some print lines at the last for loop to see if it's reaching the loop. I also see that your code is making a copy of the string array and modifying it, then updating the original string array with the modified copy. Just to make sure there isn't any issues with the copy, can you add some print statements to print out the original array and the copy array right at the end before the original array is updated? If none of these ends up leading us to the right answer, we can try out some more debugging techniques. 
+Hi! So to me, it seems like your thoughts about the possible bug might be correct, but to make sure, let's add in some print lines at the last for loop to see if it's reaching the loop. I also see that your code is making a copy of the string array and modifying it, then updating the original string array with the modified copy. Just to make sure there isn't any issues with the copy, can you add some print statements to print out the original array and the copy array right at the end before the original array is updated? If none of these end up leading us to the right answer, we can try out some more debugging techniques. 
 
 ## Phillip: 
 Thank you! I'll try it out right now. 
